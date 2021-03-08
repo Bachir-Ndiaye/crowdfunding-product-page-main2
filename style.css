@@ -1,0 +1,139 @@
+/*Amadou NDIAYE CSS Solution for Integration Challenge*/
+:root{
+    --main-theme: #2E8B57;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #FAFAD2;
+}
+nav{
+    height: 250px;
+    background-image: url(images/image-hero-desktop.jpg);
+    background-size: cover;
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list  li{
+    list-style-type: none;
+    display: inline;
+    color: white;
+    font-size: small;
+}
+
+section{
+    margin-top: -40px;
+}
+
+.middle-body, .data, .about{
+    background-color: white;
+    border-radius: 4px;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.logo-md{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+section h4{
+    text-align: center;
+}
+section p{
+    font-size:x-small;
+}
+.center{
+    text-align: center;
+}
+.b-project{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btproject{
+    color: white;
+    background-color: var(--main-theme);
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: x-small;
+}
+.fa-bookmark{
+    color:white;
+    background-color: var(--main-theme);
+    padding: 10px;
+    border-radius: 50%;
+}
+.bookmarked{
+    background-color: #D3D3D3;
+    color: var(--main-theme);
+    font-size: x-small;
+    border-radius: 30px;
+    padding-right: 12px;
+    font-weight: bold;
+}
+
+.data{
+    padding-top: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    width: 50%;
+    padding: 5%;
+    margin-top: 15px;
+}
+.box{
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.col{
+    display: grid;
+    grid-gap: 8px;
+}
+.about h6{
+    font-weight: bold;
+}
+.about{
+    letter-spacing: 0.5px;
+}
+.top-box, .bottom-box{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.top-box h5{
+    color: var(--main-theme)
+}
+.left-bb{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+.oos{
+    background-color: grey;
+}
+.mahogramy-special h4{
+    color: grey;
+}
+.data-numb h4, .data-numb p{
+    padding-right: 15px;
+    margin:0px;
+    border-right: 1px solid grey;
+}
+.left-bb h3, .left-bb p{
+    margin: 0px;
+}
+.left-bb p{
+    padding-left: 4px;
+    padding-bottom: 2px;
+}
